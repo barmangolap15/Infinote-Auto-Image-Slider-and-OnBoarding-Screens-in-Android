@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backfroung_forth"
+    tools:context=".SplashActivity">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:id="@+id/img_1"
+        android:src="@drawable/splash_food"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="-50dp"
+        android:layout_marginStart="-50dp"
+        android:elevation="15dp"
+        android:contentDescription="@string/app_name"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome \nto \nFood App"
+        android:layout_centerVertical="true"
+        android:textColor="@color/black"
+        android:fontFamily="@font/product_sans_bold"
+        android:textSize="50sp"
+        android:layout_marginStart="16dp"/>
+
+    <TextView
+        android:id="@+id/tv_next"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/next"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="20sp"
+        android:fontFamily="@font/product_sans_bold"
+        android:textColor="@color/black"
+        android:background="@drawable/rec_ripple"
+        android:layout_marginBottom="40dp"
+        android:paddingStart="20dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        app:drawableEndCompat="@drawable/next_icon"
+        tools:ignore="RtlSymmetry"
+        app:drawableTint="@color/black" />
+
+</RelativeLayout>

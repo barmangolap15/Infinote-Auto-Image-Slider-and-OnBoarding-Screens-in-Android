@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ImageSlider</string>
+
+    <string name="demo_content">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</string>
+    <string name="demo_title">Lorem Ipsum</string>
+    <string name="next">Next</string>
+    <string name="example_1">Example 1</string>
+    <string name="walkthrough">Examples of <b> walkthrough/onboarding/first-time users </b> screen in android studio</string>
+    <string name="example_2">Example 2</string>
+    <string name="example_3">Example 3</string>
+    <string name="example_4">Example 4</string>
+</resources>
